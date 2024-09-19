@@ -59,7 +59,6 @@ h1{
 }
 .p1{
     font-size: 30px;
-    text-decoration:underline 1px;
 }
 .p2{
     margin-top: 8px;
@@ -122,4 +121,242 @@ button {
     color: #fff;
   }
 
+  /* ----page 2----*/
+  #header2{
+    background:url(images/img5.jpg);
+    width:100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    padding: 10px 30px;
+}
+nav{
+    position: relative;
+    top: -90px; 
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: capitalize;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+nav a:hover{
+    color: grey;
+}
+.nav-icons{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+.nav-icons i{
+    margin: 0 10px;
+    cursor: pointer;
+}
+.heading2{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+h1{
+    font-size: 50px;
+}
+.p1{
+    font-size: 30px;
+    text-decoration:underline 1px;
+}
+.p2{
+    margin-top: 8px;
+}
+.btn2{
+    text-align: center;
+    position: relative;
+    bottom: -73%;
+}
+/* From Uiverse.io by Navarog21 */ 
+button {
+    width: 10em;
+    margin: 5px;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #515151;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #b9b9b900;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #21212100;
+    transition: 0.5s;
+  }
+  
+  button:hover::before, button:hover::after {
+    transform: scale(0)
+  }
+  
+  button:hover {
+    box-shadow: inset 0px 0px 25px #7f8182;
+  }
+  .btn2 a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+ /* ----page 3----*/
+
+ #header3{
+    background:url(images/img14.jpg);
+    width:100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    padding: 10px 30px;
+}
+nav{
+    position: relative;
+    top: -90px; 
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: capitalize;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+nav a:hover{
+    color: grey;
+}
+.nav-icons{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+.nav-icons i{
+    margin: 0 10px;
+    cursor: pointer;
+}
+.heading3{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+h1{
+    font-size: 50px;
+}
+.p1{
+    font-size: 30px;
+    text-decoration:underline 1px;
+}
+.p2{
+    margin-top: 8px;
+}
+.btn3{
+    text-align: center;
+    position: relative;
+    bottom: -73%;
+}
+/* From Uiverse.io by Navarog21 */ 
+button {
+    width: 10em;
+    margin: 5px;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #898989;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #b9b9b900;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #21212100;
+    transition: 0.5s;
+  }
+  
+  button:hover::before, button:hover::after {
+    transform: scale(0)
+  }
+  
+  button:hover {
+    box-shadow: inset 0px 0px 25px #d8d8d8;
+  }
+  .btn3 a{
+    text-decoration: none;
+    color: #fff;
+  }
   

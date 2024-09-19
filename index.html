@@ -6,6 +6,23 @@
     <title>Project tesla</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        @keyframes appear{
+            from{
+                opacity: 0;
+                transform: translateX(-100px);
+            }
+            to{
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        }
+        .block{
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+    </style>
 </head>
 <body>
     <!----Page 1----->
@@ -28,15 +45,56 @@
              <i class="fa-solid fa-globe"  style="color: #fff;" ></i>
         </div>
         <div class="heading">
-            <h1>Model Z</h1>
+            <h1 class="block">Model X</h1>
             <p class="p1">$ Duo At Signing</p>
-            <p class="p2">From $31,490</p>
+            <p class="p2">From $26,390</p>
         </div>
         <div class="btn">
             <button ><a href="https://www.tesla.com/">Order Now</a></button>
             <button><a href="https://www.tesla.com/">Demo Drive</a></button>
         </div>
     </div>
+
+    <!---page 2---->
+
+    <div id="header2">
+        
+        <div class="nav-icons">
+            <i class="fa-regular fa-user" style="color: #ffffff;"></i>
+             <i class="fa-solid fa-question" style="color: #fff;"></i>
+             <i class="fa-solid fa-globe"  style="color: #fff;" ></i>
+        </div>
+        <div class="heading2">
+            <h1 class="block">Model Y</h1>
+            <p class="p1">$ Duo At Signing</p>
+            <p class="p2">From $31,490</p>
+        </div>
+        <div class="btn2">
+            <button ><a href="https://www.tesla.com/">Order Now</a></button>
+            <button><a href="https://www.tesla.com/">Demo Drive</a></button>
+        </div>
+    </div>
+<!---page 3---->
+
+<div id="header3">
+        
+    <div class="nav-icons">
+        <i class="fa-regular fa-user" style="color: #ffffff;"></i>
+         <i class="fa-solid fa-question" style="color: #fff;"></i>
+         <i class="fa-solid fa-globe"  style="color: #fff;" ></i>
+    </div>
+    <div class="heading3">
+        <h1 class="block">Model Z</h1>
+        <p class="p1" >$ Duo At Signing</p>
+        <p class="p2" >From $42,494</p>
+    </div>
+    <div class="btn3">
+        <button><a href="https://www.tesla.com/">Order Now</a></button>
+        <button><a href="https://www.tesla.com/">Demo Drive</a></button>
+    </div>
+</div>
+
+  
     
 </body>
 </html>
